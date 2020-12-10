@@ -3,10 +3,11 @@
 :root {
   --primary-color: #ec4899;
   --dark-gray: #374151;
-  --off-white: #D1D5DB;
+  --off-white: #d1d5db;
 }
 body {
   font-family: "Montserrat", sans-serif;
+  margin: 0px;
 }
 
 .container {
@@ -75,18 +76,34 @@ hr {
 }
 .hero .hero-heading {
   color: var(--dark-gray);
+  text-align: center;
+  padding-top: 1rem;
 }
-.heading-inverted{
-    color: var(--primary-color);
+.heading-inverted {
+  color: var(--primary-color);
 }
-.section{
-    padding: 2rem;
+.section {
+  padding: 2rem;
 }
-.section h1{
-    text-align: center;
-    
+.section h1 {
+  text-align: center;
 }
 
-.ow{
-    background-color: var(--off-white);
+.ow {
+  background-color: var(--off-white);
+}
+
+.footer {
+  background-color: var(--primary-color);
+  padding: 2rem 1rem;
+  text-align: center;
+  color: white;
+}
+
+.footer .link {
+  color: white;
+}
+
+.footer .ul {
+  padding-inline-start: 0px;
 }
