@@ -19,7 +19,20 @@ body {
   max-width: 600px;
   margin: auto;
 }
-
+.blocked li{
+  background: #ffe5e5;
+  margin: 10px;
+  display: inline-block;
+  padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+  font-size: 1rem;
+  border-top-right-radius: 0.5rem;
+}
+.normalboldpink{
+  font-weight: bolder;
+  color: var(--primary-color);
+  font-size: 1.2rem;
+  
+}
 .link-primary {
   background-color: var(--primary-color);
   border-radius: 0.5rem;
@@ -53,7 +66,7 @@ hr {
 }
 .list-item-inline {
   display: inline;
-  padding: 0rem 0.5rem;
+  padding: 0rem 0.5rem 0rem 0.5rem;
 }
 .navigation {
   background-color: var(--primary-color);
@@ -127,4 +140,7 @@ hr {
   font-weight: bold;
   font-size: 1.5rem;
   
+}
+.footerimg{
+  width: 40px;
 }
